@@ -6,3 +6,8 @@ print(len(tags))
 # 2
 tags.add("linux")
 print(tags)
+# 3
+tags.discard("bash")
+print(tags)
+tags.discard("banana")
+print(tags)
