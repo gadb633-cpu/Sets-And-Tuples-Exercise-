@@ -72,7 +72,14 @@ set_a = {1,2,3,4}
 set_b = {3,4,5,6}
 result = set_a.symmetric_difference(set_b)
 print(result)
-
-
+# 5
+list_g = [1,2,3]
+set_g = {4,5,6}
+tuple_g = (7,8,9)
+# set_g.add(list_g)
+# print(set_g)
+#TypeError
+set_g.add(tuple_g)
+print(set_g)
 
 
