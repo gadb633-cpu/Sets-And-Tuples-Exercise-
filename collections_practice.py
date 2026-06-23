@@ -44,9 +44,9 @@ coords2 = coords.count(2)
 print(coords2)
 print(coords[0:3])
 # 10
-list = [1,2,3]
-set = {1,2,3}
-tuple = (1,2,3)
+list_1 = [1,2,3]
+set_1 = {1,2,3}
+tuple_1 = (1,2,3)
 print(list)
 print(set)
 print(tuple)
@@ -61,6 +61,13 @@ print(b.issuperset(a))
 # 2
 pairs = [(1,"a"),(2,"b"),(3,"c")]
 print(pairs[1][1])
+# 3
+convert_list = [1,2,3,2,3,1]
+convert_set = set(convert_list)
+print(convert_set)
+convert_set_to_list = list(convert_set)
+print(convert_set_to_list)
+
 
 
 
