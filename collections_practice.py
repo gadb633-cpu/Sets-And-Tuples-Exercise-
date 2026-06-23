@@ -20,4 +20,6 @@ diff_a = a - b
 diff_b = b - a
 print(diff_a)
 print(diff_b)
+# 5
+print("git" in tags)
 
