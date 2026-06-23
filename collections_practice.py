@@ -43,3 +43,11 @@ coords = (1,2,3,2,1)
 coords2 = coords.count(2)
 print(coords2)
 print(coords[0:3])
+# 10
+list = [1,2,3]
+set = {1,2,3}
+tuple = (1,2,3)
+print(list)
+print(set)
+print(tuple)
+
