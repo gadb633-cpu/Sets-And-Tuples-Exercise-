@@ -22,4 +22,8 @@ print(diff_a)
 print(diff_b)
 # 5
 print("git" in tags)
+# 6
+point = (10,20)
+print(point)
+print(point[0],point[1])
 
