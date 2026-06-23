@@ -38,4 +38,8 @@ b = rgb[2]
 print(r)
 print(g)
 print(b)
-
+# 9
+coords = (1,2,3,2,1)
+coords2 = coords.count(2)
+print(coords2)
+print(coords[0:3])
