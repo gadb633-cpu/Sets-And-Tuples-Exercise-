@@ -26,4 +26,16 @@ print("git" in tags)
 point = (10,20)
 print(point)
 print(point[0],point[1])
+# 7
+# point[0]= 99
+# print(point)
+# typeerror
+# 8
+rgb = (255,128,0)
+r = rgb[0]
+g = rgb[1]
+b = rgb[2]
+print(r)
+print(g)
+print(b)
 
