@@ -50,4 +50,17 @@ tuple = (1,2,3)
 print(list)
 print(set)
 print(tuple)
+# part 2
+# 1
+a = {1,2,3}
+b = {3,4,5}
+print(a.issubset(b))
+print(b.issubset(a))
+print(a.issuperset(b))
+print(b.issuperset(a))
+# 2
+pairs = [(1,"a"),(2,"b"),(3,"c")]
+print(pairs[1][1])
+
+
 
